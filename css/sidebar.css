@@ -31,22 +31,22 @@ aside {
     align-items: center;
     padding: 10px;
     width: 100%;
-    box-sizing: border-box; /* This ensures padding is included in the width */
+    box-sizing: border-box;
   }
   
   aside nav ul li a i {
-    font-size: 20px; /* Adjust icon size as needed */
-    margin-right: 10px; /* Space between icon and text */
-    width: 30px; /* Set a fixed width for icons to align them */
-    text-align: center; /* Center the icons */
+    font-size: 20px;
+    margin-right: 10px;
+    width: 30px;
+    text-align: center;
   }
   
   aside nav ul li a .nav-text {
     white-space: nowrap;
     overflow: hidden;
     transition: max-width 0.5s ease, opacity 0.5s ease;
-    max-width: 0; /* Initially hide text */
-    opacity: 0; /* Make text transparent initially */
+    max-width: 0;
+    opacity: 0;
   }
   
   aside:hover {
@@ -54,6 +54,6 @@ aside {
   }
   
   aside:hover .nav-text {
-    max-width: 100px; /* Reveal text when sidebar is hovered */
-    opacity: 1; /* Make text opaque when sidebar is hovered */
+    max-width: 100px;
+    opacity: 1;
   }

@@ -18,14 +18,23 @@ main {
 .center-content h1 {
     font-size: 2rem;
     margin-bottom: 10px;
+    justify-content: center;
     color: white;
 }
 
 .search-bar {
-    width: 300px;
+    width: 500px;
     padding: 10px;
     background-color: white;
     border: 1px solid #cccccc;
     color: #cccccc;
     border-radius: 25px;
+}
+
+.search-container {
+    margin-top: -120px; /* Adjust this value to move the container up */
+}
+
+.search-container h1 {
+    text-align: center; /* This will center the title text */
 }
