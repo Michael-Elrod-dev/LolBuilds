@@ -1,6 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import { useState } from 'react'
+import { client } from 'next/client'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -9,7 +10,7 @@ export const metadata = {
   description: 'A simple Hello World application',
 }
 
-export default function RootLayout({ children }) {
+export default client(function RootLayout({ children }) {
   const [darkMode, setDarkMode] = useState(false);
 
   const toggleDarkMode = () => {
@@ -30,4 +31,4 @@ export default function RootLayout({ children }) {
       </body>
     </html>
   )
-}
+})
