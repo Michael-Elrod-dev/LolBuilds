@@ -32,9 +32,9 @@ main {
 }
 
 .search-container {
-    margin-top: -120px; /* Adjust this value to move the container up */
+    margin-top: -120px;
 }
 
 .search-container h1 {
-    text-align: center; /* This will center the title text */
+    text-align: center;
 }

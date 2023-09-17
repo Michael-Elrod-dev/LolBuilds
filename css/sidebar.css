@@ -3,10 +3,10 @@ aside {
     top: 0;
     left: 0;
     height: 100%;
-    width: 50px; /* Initial width of the navbar */
+    width: 58px;
     background-color: black;
     overflow-x: hidden;
-    transition: width 0.5s; /* Smooth transition effect */
+    transition: width 0.5s;
   }
   
   aside nav ul {
@@ -35,7 +35,7 @@ aside {
   }
   
   aside nav ul li a i {
-    font-size: 20px;
+    font-size: 25px;
     margin-right: 10px;
     width: 30px;
     text-align: center;

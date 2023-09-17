@@ -6,7 +6,7 @@ header {
 nav ul {
     display: flex;
     justify-content: space-around;
-    padding: 10px;
+    padding: 18px;
     list-style-type: none;
     margin: 0;
 }
